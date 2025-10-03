@@ -26,5 +26,10 @@ namespace _2025_2026_DAM_1A_ED_Primer_Proyecto
         {
 
         }
+
+        private void btnBoton_MouseEnter(object sender, EventArgs e)
+        {
+            btnBoton.Location = new Point(0, 0);
+        }
     }
 }
